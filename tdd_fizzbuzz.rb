@@ -1,3 +1,3 @@
 def fizzbuzz()
-	fizzarr = []
+	fizzarr = [*1..100]
 end
