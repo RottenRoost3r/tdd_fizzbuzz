@@ -11,7 +11,13 @@ class TestTddFizzBuzz < Minitest::Test
     	assert_equal(Array, fizzbuzz().class)
     end
 
-    def test_assert_array_length_is_100
+   	def test_assert_array_length_is_100
     	assert_equal(100, fizzbuzz().length)
     end
+
+    def test_assert_first_position_is_1
+   		assert_equal(1, fizzbuzz().first)
+    end
+
+
 end
