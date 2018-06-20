@@ -5,7 +5,9 @@ def fizzbuzz()
 	fizzarr[14] = "mined minds"
 	new_arr = []
 	fizzarr.each do |item|
-		if item % 3 == 0
+		if item % 15 == 0
+			item = "mined minds"
+		elsif item % 3 == 0
 			item = "mined"
 		elsif item % 5 ==0
 			item = "minds"
