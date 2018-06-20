@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "num_comp.rb"
+require_relative "tdd_fizzbuzz.rb"
 
 class TestYourFunctions < Minitest::Test
 
